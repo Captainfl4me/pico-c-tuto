@@ -21,6 +21,8 @@ Une fois le build terminé le code de sortie doit être 0 sinon c'est qu'il y a 
 
 Avec l'explorateur de fichier localiser le fichier NOM_DU_PROJET.uf2, c'est ce fichier qu'il faudra envoyer sur la PICO. Pour cela il faut bancher la pico avec un cable sur l'ordinateur en maintenant le boutton "BOOT" enfoncé. La carte devrait être reconnu par l'ordinateur comme un support de stockage (clé USB). Il faut glisser/déposer le fichier uf2 dedans. Une fois le programme flashé, à chaque fois que la carte se lance elle va démander le programme.
 
+![](./images/Move_files.png)
+
 ## Exemple
 Ce repos contient un programme blink exemple pour les RP2040 zero Wireshare. Il suffit de télécharger le code, puis le dézipper et ouvrir le dossier dans "PICO - Visual Studio Code" et faire les étapes expliqué dans la partie précédente. Pour l'adressage de la LED embarqué sur la carte j'utilise la librairie: [WS2812 LED](https://github.com/ForsakenNGS/Pico_WS2812)
 
