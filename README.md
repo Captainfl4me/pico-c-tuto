@@ -35,7 +35,7 @@ Utilisation de la LED embarquée pour une animation RGB parcourant le cercle chr
 
 ### SSD1306 Oled
 
-Utilisation du microcontrolleur pour afficher une image sur un écran OLED SSD1306 avec une animation RGB parcourant le cercle chromatique sur le deuxième coeur. Pour l'adressage de la LED, la librairie utilisée est : [WS2812 LED](https://github.com/ForsakenNGS/Pico_WS2812) et pour l'utilisation de l'écran : [pico-ssd1306](https://github.com/daschr/pico-ssd1306/tree/main) (but with some modifications for CPP).
+Utilisation du microcontrolleur pour afficher une image sur un écran OLED SSD1306 avec une animation RGB parcourant le cercle chromatique sur le deuxième coeur. Pour l'adressage de la LED, la librairie utilisée est : [WS2812 LED](https://github.com/ForsakenNGS/Pico_WS2812) et pour l'utilisation de l'écran : [pico-ssd1306](https://github.com/daschr/pico-ssd1306/tree/main) (mais avec quelques modifications du code pour passer de C à CPP).
 
 Pour changer l'image, il faut d'abord un fichier [bitmap monochrome](https://support.bradyid.com/s/article/How-to-Convert-an-Image-to-Monochrome-Bitmap), puis afin d'embarquer l'image dans le code il faut transformer le fichier bmp en [tableau c](https://sparksandflames.com/cgi-bin/blobinatorweb.cgi) et remplacer le contenu du fichier SSD1306_oled/siera_logo.hpp.
 
